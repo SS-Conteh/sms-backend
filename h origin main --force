@@ -1,0 +1,31 @@
+[33mcommit 96b4c5d5c0e87661bf13df9568d41fbd88be3174[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SS-Conteh <contehsantoss1@gmail.com>
+Date:   Sat Jun 27 22:16:09 2026 +0000
+
+    initial commit
+
+ .gitignore                       |    2 [32m+[m
+ config/cloudinary.js             |   33 [32m+[m
+ config/db.js                     |   13 [32m+[m
+ controllers/authController.js    |   64 [32m++[m
+ controllers/classController.js   |   61 [32m++[m
+ controllers/parentController.js  |   89 [32m++[m
+ controllers/studentController.js |  100 [32m++[m
+ controllers/teacherController.js |   85 [32m++[m
+ middleware/auth.js               |   37 [32m+[m
+ models/Class.js                  |   14 [32m+[m
+ models/Parent.js                 |   14 [32m+[m
+ models/Student.js                |   18 [32m+[m
+ models/Subject.js                |   13 [32m+[m
+ models/Teacher.js                |   17 [32m+[m
+ models/User.js                   |   38 [32m+[m
+ package-lock.json                | 1905 [32m++++++++++++++++++++++++++++++++++++++[m
+ package.json                     |   29 [32m+[m
+ routes/auth.js                   |   10 [32m+[m
+ routes/classes.js                |   13 [32m+[m
+ routes/parents.js                |   14 [32m+[m
+ routes/students.js               |   14 [32m+[m
+ routes/teachers.js               |   14 [32m+[m
+ server.js                        |   38 [32m+[m
+ sms-backend                      |    1 [32m+[m
+ 24 files changed, 2636 insertions(+)
